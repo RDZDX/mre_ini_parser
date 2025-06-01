@@ -1,0 +1,7 @@
+; mre_ini_parser.def : Declares the module parameters for the DLL.
+
+LIBRARY      "mre_ini_parser"
+DESCRIPTION  'mre_ini_parser Windows Dynamic Link Library'
+
+EXPORTS
+    vm_entry @1
